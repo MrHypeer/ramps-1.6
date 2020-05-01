@@ -86,7 +86,7 @@
 #define EXTRUDERS 1
 
 //// The following define selects which power supply you have. Please choose the one that matches your setup
-// 1 = ATX
+// 1 = ATX ATX电源作用是把交流220V的电源转换为计算机内部使用的直流5V，12V，24V的电源
 // 2 = X-Box 360 203Watts (the blue wire connected to PS_ON and the red wire to VCC)
 
 #define POWER_SUPPLY 1
@@ -106,7 +106,7 @@
 #define DELTA_SEGMENTS_PER_SECOND 160
 
 // Center-to-center distance of the holes in the diagonal push rods.
-#define DELTA_DIAGONAL_ROD 215   // mm 碳杆鱼眼中心距
+#define DELTA_DIAGONAL_ROD 215   // mm 碳杆鱼眼中心距  
 
 // Horizontal offset from middle of printer to smooth rod center.
 #define DELTA_SMOOTH_ROD_OFFSET 150 // mm
